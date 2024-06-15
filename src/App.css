@@ -47,6 +47,11 @@ html{
     right: 0;
 }
 
+.page1heropic2{
+    display: none;
+    mix-blend-mode: lighten;
+}
+
 @media screen and (max-width: 1070px) {
     .page2{
         height: 120vh !important;
@@ -75,7 +80,7 @@ html{
     }
 
     .page1heropic{
-        top: 20%;
+        top: 17%;
         right: 0;
     }
 
@@ -115,6 +120,10 @@ html{
     .page5{
         height: 150vh !important;
     }    
+
+    .page2{
+        height: 166vh !important;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -124,6 +133,19 @@ html{
 
     .cross{
         display: none;
+    }
+
+    .page1heropic{
+        bottom: 0;
+        right: 0;
+        display: none;
+    }
+    
+    .page1heropic2{
+        display: block !important;
+        right: 0%;
+        top: 31%;
+        mix-blend-mode: lighten !important;
     }
     
 }
@@ -244,3 +266,4 @@ li{
 .aboutlorem{
     width: 30vw;
 }
+

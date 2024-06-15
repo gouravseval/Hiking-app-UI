@@ -23,6 +23,7 @@ function App() {
           </div>
           <div className='page1Right '>
             <img className='page1heropic z-1 position-absolute' src="../assets/page1-removebg.png" alt="" />
+            <img className='page1heropic2 z-3 position-absolute' src="../assets/page1media.png" alt="" />
           </div>
         </div>
       </div>
@@ -33,7 +34,7 @@ function App() {
 
         <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute cross' src="../assets/greencross2.png" alt="" />
         <img style={{ top: "12vh", left: "2vw" }} className='position-absolute cross' src="../assets/greencross2.png" alt="" />
-        <h1 className='mx-5 px-5 pt-5 fs-1 fw-normal'>HIKING AND CAMPING</h1>
+        <div className='mx-5 bg-white error px-5 pt-5 fs-1 fw-normal'>HIKING AND CAMPING</div>
         <h1 className='mx-5 px-5 fw-bold'>CLASSES</h1>
         <img className='mx-5 px-5' src="../assets/page2cyanline.png" alt="" />
         <div style={{ height: "50vh", width: "100vw" }} className='flex-wrap mt-2 d-flex align-items-center justify-content-center gap-5 '>
