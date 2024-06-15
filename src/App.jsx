@@ -13,7 +13,7 @@ function App() {
 
       {/* page1 start */}
       <div className="d-flex overflow-x-hidden px-md-5 flex-column page1 p-4">
-        <img style={{ top: "10vw" }}   className='position-absolute' src="../public/assets/greeencross1.png" alt="" />
+        <img style={{ top: "10vw" }}   className='position-absolute' src="../assets/greeencross1.png" alt="" />
         <Header />
         <div className='d-flex'>
           <div style={{ width: "calc(4vw + 260px)" }} className='page1div d-flex flex-column gap-2 w-25 mx-lg-5 mt-5'>
@@ -22,7 +22,7 @@ function App() {
             <p className='fw-bold text-white'>Lorem ipsum dolor sit, <br />amet consectetur adipisicing <br />elit. Deserunt </p>
           </div>
           <div className='page1Right '>
-            <img className='page1heropic z-1 position-absolute' src="../public/assets/page1-removebg.png" alt="" />
+            <img className='page1heropic z-1 position-absolute' src="../assets/page1-removebg.png" alt="" />
           </div>
         </div>
       </div>
@@ -31,8 +31,8 @@ function App() {
       {/* page2start */}
       <div className="page2 position-relative">
 
-        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute' src="../public/assets/greencross2.png" alt="" />
-        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute' src="../public/assets/greencross2.png" alt="" />
+        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
+        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
         <h1 className='mx-5 px-5 pt-5 fs-1 fw-normal'>HIKING AND CAMPING</h1>
         <h1 className='mx-5 px-5 fw-bold'>CLASSES</h1>
         <img className='mx-5 px-5' src="../public/assets/page2cyanline.png" alt="" />
