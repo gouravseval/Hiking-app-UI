@@ -13,7 +13,7 @@ function App() {
 
       {/* page1 start */}
       <div className="d-flex overflow-x-hidden px-md-5 flex-column page1 p-4">
-        <img style={{ top: "10vw" }} className='position-absolute' src="../public/assets/greeencross1.png" alt="" />
+        <img style={{ top: "10vw" }}   className='position-absolute' src="../assets/greeencross1.png" alt="" />
         <Header />
         <div className='d-flex'>
           <div style={{ width: "calc(4vw + 260px)" }} className='page1div d-flex flex-column gap-2 w-25 mx-lg-5 mt-5'>
@@ -22,7 +22,7 @@ function App() {
             <p className='fw-bold text-white'>Lorem ipsum dolor sit, <br />amet consectetur adipisicing <br />elit. Deserunt </p>
           </div>
           <div className='page1Right '>
-            <img className='page1heropic z-1 position-absolute' src="../public/assets/page1-removebg.png" alt="" />
+            <img className='page1heropic z-1 position-absolute' src="../assets/page1-removebg.png" alt="" />
           </div>
         </div>
       </div>
@@ -31,11 +31,11 @@ function App() {
       {/* page2start */}
       <div className="page2 position-relative">
 
-        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute' src="../public/assets/greencross2.png" alt="" />
-        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute' src="../public/assets/greencross2.png" alt="" />
+        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
+        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
         <h1 className='mx-5 px-5 pt-5 fs-1 fw-normal'>HIKING AND CAMPING</h1>
         <h1 className='mx-5 px-5 fw-bold'>CLASSES</h1>
-        <img className='mx-5 px-5' src="../public/assets/page2cyanline.png" alt="" />
+        <img className='mx-5 px-5' src="../assets/page2cyanline.png" alt="" />
         <div style={{ height: "50vh", width: "100vw" }} className='flex-wrap mt-2 d-flex align-items-center justify-content-center gap-5 '>
           <Page2Section img={"../public/assets/page2bag.png"} h1={"Activities"} />
           <Page2Section img={"../public/assets/page2men.png"} h1={"Hiking"} />
@@ -48,8 +48,8 @@ function App() {
       {/* page3start */}
 
       <div className="page3 flex-wrap position-relative letterSpace d-flex align-items-center justify-content-center">
-        <img style={{ bottom: "30vh", right: "8vw" }} className='position-absolute' src="../public/assets/redcross.png" alt="" />
-        <img style={{ top: "50vh", left: "0vw" }} className='position-absolute z-5' src="../public/assets/greencross1.png" alt="" />
+        <img style={{ bottom: "30vh", right: "8vw" }} className='position-absolute' src="../assets/redcross.png" alt="" />
+        <img style={{ top: "50vh", left: "0vw" }} className='position-absolute z-5' src="../assets/greencross1.png" alt="" />
         <div style={{ minWidth: "350px", width: "40vw" }} className='d-flex flex-column'>
           <h1 className='fw-bolder'>ROCK <br /> CLIMBING</h1>
           <h3 className='mt-4 letterSpace fw-bold '>1. CLASSES & EVENTS</h3>
@@ -87,14 +87,14 @@ function App() {
       <div className="page5 flex-wrap flex-md-nowrap px-md-5 d-flex justify-content-center align-items-center position-relative">
 
         <div style={{minWidth: "350px", width: '40vw' }} className='w-100  mx-md-5 px-md-5'>
-          <img style={{ bottom: "10vh", right: "10vw" }} className='w-md-100 position-absolute z-5' src="../public/assets/bluecross.png"
+          <img style={{ bottom: "10vh", right: "10vw" }} className='w-md-100 position-absolute z-5' src="../assets/bluecross.png"
             alt="" />
-          <img style={{ top: "1vh", left: "3vw" }} className='position-absolute z-5' src="../public/assets/bluecross.png"
+          <img style={{ top: "1vh", left: "3vw" }} className='position-absolute z-5' src="../assets/bluecross.png"
             alt="" />
-          <img style={{ top: "-3vh", left: "8vw" }} className='position-absolute z-5' src="../public/assets/redcross.png"
+          <img style={{ top: "-3vh", left: "8vw" }} className='position-absolute z-5' src="../assets/redcross.png"
             alt="" />
           <h1 className='mt-5 text-center letterSpace '>HOW TO RECOVER FROM <br /> A HIKE</h1>
-          <img className='' src="../public/assets/page2cyanline.png" alt="" />
+          <img className='' src="../assets/page2cyanline.png" alt="" />
           <Page5section img={"../public/assets/page2bag.png"} />
           <Page5section img={"../public/assets/page2mountain.png"} />
           <Page5section img={"../public/assets/page2men.png"} />
@@ -150,7 +150,7 @@ function App() {
 
       <div className="page9 d-flex align-items-center justify-content-center flex-column text-center">
         <h3 className='fw-bold fst-italic text-white'>THE ASANAS PURIFY OUR BODY AND <br /> KEEP IT HEALTHY, MAKING IT SUITA- <br />BLE FOR THE SOUL</h3>
-        <img className='page9img mt-2' src="../public/assets/page9pic.png" alt="" />
+        <img className='page9img mt-2' src="../assets/page9pic.png" alt="" />
         <button className='text-white border-info bg-transparent mt-4 p-2 px-5'>see more</button>
       </div>
 
@@ -163,7 +163,7 @@ function App() {
         <div className='px-3 px-md-5 w-50 d-flex flex-column gap-2'>
           <h4 className='px-5'>ABOUT</h4>
           <div className='px-5 aboutlorem'>Lorem ipsum dolor sit amet consec tetur adipisicing elit. Vero repellat dignissimos est provident</div>
-          <img style={{ width: "calc(8vw + 170px)" }} className='px-5 mt-4' src="../public/assets/logo.png" alt="" />
+          <img style={{ width: "calc(8vw + 170px)" }} className='px-5 mt-4' src="../assets/logo.png" alt="" />
         </div>
         <div className='d-flex  mx-5'>
           <div className='li1 mx-2'>
