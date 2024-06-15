@@ -140,7 +140,7 @@ html{
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    background-image: url('../public/assets/page3avatar.png');
+    background-image: url('../assets/page3avatar.png');
     background-position: center;
     background-size: cover;
 }
@@ -150,7 +150,9 @@ html{
     height: 70vh;
     background-size: cover;
     background-position: center;
-    background: rgba(0, 0, 0, 0.6)url(../public/assets/page4background.png);
+    background-image: url("../assets/page4background.png");
+    background-blend-mode: lighten;
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
 }
 
@@ -163,7 +165,7 @@ html{
     height: calc(20vw + 100px);
     width: calc(20vw + 100px);
     border-radius: 50%;
-    background-image: url('../public/assets/page3avatar.png');
+    background-image: url('../assets/page3avatar.png');
     background-position: center;
     background-size: cover;
 }
@@ -171,7 +173,7 @@ html{
 .page6{
     height: 100vh;
     width: 100vw;
-    background-image: url('../public/assets/page6background.png');
+    background-image: url('../assets/page6background.png');
     background-position: center;
     background-size: cover;
 }
@@ -189,7 +191,8 @@ html{
 .page9{
     height: 70vh;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.1)url(../public/assets/page4background.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url("../assets/page4background.png");
     background-blend-mode: lighten;
 }
 
