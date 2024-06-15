@@ -22,7 +22,7 @@ function App() {
             <p className='fw-bold text-white'>Lorem ipsum dolor sit, <br />amet consectetur adipisicing <br />elit. Deserunt </p>
           </div>
           <div className='page1Right '>
-            <img className='page1heropic z-1 position-absolute' src="../public/assets/page1-removebg.png" alt="" />
+            <img className='page1heropic z-1 position-absolute' src="../assets/page1-removebg.png" alt="" />
           </div>
         </div>
       </div>
