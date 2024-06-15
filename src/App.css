@@ -8,13 +8,18 @@
     font-family: "Bitter", serif;
 }
 
+#root{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 a{
     cursor: pointer;
 }
 
 html{
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100vw !important;
+    overflow-x: hidden !important;
 }
 
 .page1{
@@ -22,7 +27,7 @@ html{
     height: 100vh;
     width: 100vw;
     background: #15212b;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .nav-link{
@@ -70,12 +75,13 @@ html{
     }
 
     .page1heropic{
-        right: -25%;
-        top: 13%;
+        top: 20%;
+        right: 0;
     }
 
     .page1{
         color: #15212b !important;
+        overflow: hidden !important;
     }
 
     .page3{
@@ -111,6 +117,13 @@ html{
     }    
 }
 
+@media screen and (max-width: 500px) {
+    .page2{
+        height: 140vh !important;
+    }
+    
+}
+
 @media screen and (max-width: 400px) {
     .page2{
         height: 180vh !important;
@@ -129,6 +142,7 @@ html{
     color: black;
     padding-top: 2rem;
     padding-bottom: 3rem;
+    
 }
 
 .page3{
