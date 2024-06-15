@@ -49,7 +49,7 @@ function App() {
 
       <div className="page3 flex-wrap position-relative letterSpace d-flex align-items-center justify-content-center">
         <img style={{ bottom: "30vh", right: "8vw" }} className='position-absolute cross' src="../assets/redcross.png" alt="" />
-        <img style={{ top: "50vh", left: "0vw" }} className='position-absolute z-5' src="../assets/greencross1.png" alt="" />
+        <img style={{ top: "50vh", left: "0vw" }} className='position-absolute cross z-5' src="../assets/greencross1.png" alt="" />
         <div style={{ minWidth: "350px", width: "40vw" }} className='d-flex flex-column'>
           <h1 className='fw-bolder'>ROCK <br /> CLIMBING</h1>
           <h3 className='mt-4 letterSpace fw-bold '>1. CLASSES & EVENTS</h3>
@@ -87,11 +87,11 @@ function App() {
       <div className="page5 flex-wrap flex-md-nowrap px-md-5 d-flex justify-content-center align-items-center position-relative">
 
         <div style={{minWidth: "350px", width: '40vw' }} className='w-100  mx-md-5 px-md-5'>
-          <img style={{ bottom: "10vh", right: "10vw" }} className='w-md-100 position-absolute z-5' src="../assets/bluecross.png"
+          <img style={{ bottom: "10vh", right: "10vw" }} className='w-md-100 cross position-absolute z-5' src="../assets/bluecross.png"
             alt="" />
-          <img style={{ top: "1vh", left: "3vw" }} className='position-absolute z-5' src="../assets/bluecross.png"
+          <img style={{ top: "1vh", left: "3vw" }} className='position-absolute cross z-5' src="../assets/bluecross.png"
             alt="" />
-          <img style={{ top: "-3vh", left: "8vw" }} className='position-absolute z-5' src="../assets/redcross.png"
+          <img style={{ top: "-3vh", left: "8vw" }} className='position-absolute cross z-5' src="../assets/redcross.png"
             alt="" />
           <h1 className='mt-5 text-center letterSpace '>HOW TO RECOVER FROM <br /> A HIKE</h1>
           <img className='' src="../assets/page2cyanline.png" alt="" />
