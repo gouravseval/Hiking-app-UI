@@ -150,7 +150,7 @@ html{
     height: 70vh;
     background-size: cover;
     background-position: center;
-    background: rgba(0, 0, 0, 0.6)url(../assets/page4background.png);
+    background: rgba(0, 0, 0, 0.6)url("../assets/page4background.png");
     background-blend-mode: darken;
 }
 
@@ -189,7 +189,7 @@ html{
 .page9{
     height: 70vh;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.1)url(../assets/page4background.png);
+    background: rgba(255, 255, 255, 0.1)url("../assets/page4background.png");
     background-blend-mode: lighten;
 }
 
