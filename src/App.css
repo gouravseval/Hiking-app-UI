@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitter", serif;
+}
+
+a{
+    cursor: pointer;
+}
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.page1{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: #15212b;
+    overflow: hidden;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-toggler{
+    color: white;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.page1heropic{
+    mix-blend-mode: lighten;
+    top: -30px;
+    right: 0;
+}
+
+@media screen and (max-width: 1070px) {
+    .page2{
+        height: 120vh !important;
+    }
+
+    .lorem{
+        width: 40vw !important;
+    }
+
+    .page10{
+        height: 45vh !important;
+    }
+
+    .aboutlorem{
+        width: 40vw !important;
+    }
+
+    .page1div{
+        width: 32vw !important;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .page2{
+        height: 147vh !important;
+    }
+
+    .page1heropic{
+        right: -25%;
+        top: 13%;
+    }
+
+    .page1{
+        color: #15212b !important;
+    }
+
+    .page3{
+        height: 130vh !important;
+    }
+
+    .page8{
+        flex-wrap: wrap;
+    }
+
+    .lorem{
+        width: 30vw;
+    }
+
+    .aboutlorem{
+        width: 50vw !important;
+
+    }
+
+    .page10{
+       overflow: hidden !important;
+        
+    }
+
+    .page1div{
+        width: 40vw !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page5{
+        height: 150vh !important;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .page2{
+        height: 180vh !important;
+    }
+
+    .page1div{
+        width: 50vw !important;
+    }
+
+    
+}
+
+.page2{
+    height: auto;
+    width: 100vw;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.page3{
+    height: 80vh;
+    width: 100vw;
+}
+
+.page3avatardiv{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    background-image: url('../public/assets/page3avatar.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.page4{
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.6)url(../public/assets/page4background.png);
+    background-blend-mode: darken;
+}
+
+.page5{
+    height: 100vh;
+    width: 100vw;
+}
+
+.page5avatar{
+    height: calc(20vw + 100px);
+    width: calc(20vw + 100px);
+    border-radius: 50%;
+    background-image: url('../public/assets/page3avatar.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.page6{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../public/assets/page6background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.page7{
+    height: 85vh;
+    width: 100vw;
+}
+
+.page8{
+    background-color: #15212b;
+    color: white;
+}
+
+.page9{
+    height: 70vh;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.1)url(../public/assets/page4background.png);
+    background-blend-mode: lighten;
+}
+
+.letterSpace{
+    letter-spacing: 1px;
+}
+
+.page10{
+    height: 40vh;
+    width: 100vw;
+}
+
+li{
+    list-style-type: none;
+}
+
+.lastline{
+    height: 3vh; 
+    width: 100vw;
+    background-color: #0dcaf0;
+}
+
+.aboutlorem{
+    width: 30vw;
+}
