@@ -53,7 +53,7 @@ html{
     }
 
     .lorem{
-        width: 40vw !important;
+        width: 43vw !important;
     }
 
     .page10{
@@ -61,7 +61,7 @@ html{
     }
 
     .aboutlorem{
-        width: 40vw !important;
+        width: 43vw !important;
     }
 
     .page1div{
@@ -119,20 +119,29 @@ html{
 
 @media screen and (max-width: 500px) {
     .page2{
-        height: 140vh !important;
+        height: 160vh !important;
+    }
+
+    .cross{
+        display: none;
     }
     
 }
 
 @media screen and (max-width: 400px) {
     .page2{
-        height: 180vh !important;
+        height: 160vh !important;
     }
 
     .page1div{
         width: 50vw !important;
     }
 
+    .page3{
+        padding-left: 0.5rem;
+    }
+
+    
     
 }
 

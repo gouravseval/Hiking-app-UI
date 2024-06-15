@@ -13,7 +13,7 @@ function App() {
 
       {/* page1 start */}
       <div className="d-flex overflow-x-hidden px-md-5 flex-column page1 p-4">
-        <img style={{ top: "10vw" }}   className='position-absolute' src="../assets/greeencross1.png" alt="" />
+        <img style={{ top: "10vw" }} className='position-absolute cross' src="../assets/greeencross1.png" alt="" />
         <Header />
         <div className='d-flex'>
           <div style={{ width: "calc(4vw + 260px)" }} className='page1div d-flex flex-column gap-2 w-25 mx-lg-5 mt-5'>
@@ -31,8 +31,8 @@ function App() {
       {/* page2start */}
       <div className="page2 position-relative">
 
-        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
-        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute' src="../assets/greencross2.png" alt="" />
+        <img style={{ bottom: "10vh", right: "5vw" }} className='position-absolute cross' src="../assets/greencross2.png" alt="" />
+        <img style={{ top: "12vh", left: "2vw" }} className='position-absolute cross' src="../assets/greencross2.png" alt="" />
         <h1 className='mx-5 px-5 pt-5 fs-1 fw-normal'>HIKING AND CAMPING</h1>
         <h1 className='mx-5 px-5 fw-bold'>CLASSES</h1>
         <img className='mx-5 px-5' src="../assets/page2cyanline.png" alt="" />
@@ -48,7 +48,7 @@ function App() {
       {/* page3start */}
 
       <div className="page3 flex-wrap position-relative letterSpace d-flex align-items-center justify-content-center">
-        <img style={{ bottom: "30vh", right: "8vw" }} className='position-absolute' src="../assets/redcross.png" alt="" />
+        <img style={{ bottom: "30vh", right: "8vw" }} className='position-absolute cross' src="../assets/redcross.png" alt="" />
         <img style={{ top: "50vh", left: "0vw" }} className='position-absolute z-5' src="../assets/greencross1.png" alt="" />
         <div style={{ minWidth: "350px", width: "40vw" }} className='d-flex flex-column'>
           <h1 className='fw-bolder'>ROCK <br /> CLIMBING</h1>
